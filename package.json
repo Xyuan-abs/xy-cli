@@ -1,0 +1,33 @@
+{
+  "name": "xy-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "xy": "bin/xy",
+    "xy-add": "bin/xy-add",
+    "xy-delete": "bin/xy-delete",
+    "xy-list": "bin/xy-list",
+    "xy-init": "bin/xy-init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xyuan-abs/xy-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xyuan-abs/xy-cli/issues"
+  },
+  "homepage": "https://github.com/Xyuan-abs/xy-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  }
+}
